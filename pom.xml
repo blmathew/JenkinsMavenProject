@@ -15,7 +15,7 @@
 			<artifactId>maven-war-plugin</artifactId>
 			<configuration>
 				<attachClasses>true</attachClasses>
-				<webXml>target/web.xml</webXml>
+				<failOnMissingWebXml>false</failOnMissingWebXml>
 				<webResources>
 					<resource>
 						<directory>src\main\java\com\kdp\java</directory>
